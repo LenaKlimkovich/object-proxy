@@ -1,0 +1,37 @@
+{
+  "name": "object-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/LenaKlimkovich/object-proxy#readme",
+  "bugs": {
+    "url": "https://github.com/LenaKlimkovich/object-proxy/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LenaKlimkovich/object-proxy.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack --mode production",
+    "test": "jest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0",
+    "@eslint/js": "^10.0.1",
+    "babel-jest": "^30.3.0",
+    "babel-loader": "^10.1.1",
+    "eslint": "^10.0.3",
+    "globals": "^17.4.0",
+    "jest": "^30.3.0",
+    "webpack": "^5.105.4",
+    "webpack-cli": "^6.0.1"
+  }
+}
